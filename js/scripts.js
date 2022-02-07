@@ -100,6 +100,10 @@
             }
         });
 
+        $('form button').click(function(event) {
+            event.preventDefault();
+        })
+
 
 
         validateTextField(firstName);

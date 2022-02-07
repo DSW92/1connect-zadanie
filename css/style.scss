@@ -167,6 +167,9 @@ body {
             color: #131212;
             text-decoration: none;
             padding: 0 2rem;
+            &:hover {
+              color: #42d4ad;
+            }
           }
         }
 
@@ -271,6 +274,9 @@ body {
               color: #fff;
               margin-top: 10px;
               margin-bottom: -5px;
+              &:hover {
+                cursor: pointer;
+              }
             }
 
             button {
@@ -284,6 +290,9 @@ body {
               margin-left: 23px;
               margin-top: 10px;
               margin-bottom: -5px;
+              &:hover {
+                cursor: pointer;
+              }
             }
           }
           .form__row.form-validation-message-box {

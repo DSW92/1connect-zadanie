@@ -217,6 +217,10 @@ body {
   padding: 0 2rem;
 }
 
+#registration .registration .registration__container .registration__navbar nav a:hover {
+  color: #42d4ad;
+}
+
 #registration .registration .registration__container .registration__navbar .login-btn__container a {
   font-size: 11px;
   color: #fff;
@@ -325,6 +329,10 @@ body {
   margin-bottom: -5px;
 }
 
+#registration .registration .registration__container .registration__content form#registration-form .form__row input[type="submit"]:hover {
+  cursor: pointer;
+}
+
 #registration .registration .registration__container .registration__content form#registration-form .form__row button {
   width: 147px;
   height: 28px;
@@ -336,6 +344,10 @@ body {
   margin-left: 23px;
   margin-top: 10px;
   margin-bottom: -5px;
+}
+
+#registration .registration .registration__container .registration__content form#registration-form .form__row button:hover {
+  cursor: pointer;
 }
 
 #registration .registration .registration__container .registration__content form#registration-form .form__row.form-validation-message-box {
