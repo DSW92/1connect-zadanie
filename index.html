@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <title>1connect - zadanie</title>
+</head>
+<body>
+    <div class="loader__wrapper">
+        <div class="loader"></div>
+    </div>
+    <section id="registration">
+        <div class="sidebar">
+            <div class="sidebar__container">
+                <div class="site-icon__container">
+                    <a href="#"><img src="img/logo.png" alt="Heat Service"/></a>
+                </div>
+                <div class="sidebar__contents">
+                    <h1><strong>Uzyskaj pełny</strong> dostęp do <span>urządzeń <strong>grzewczych</strong></span></h1>
+                    <p>Zarządzaj swoim ciepłem razem z nami</p>
+                    <a href="#">Rejestracja</a>
+                </div>
+                <div></div>
+            </div>
+            <img class="background-icon" src="img/hs_icon.png">
+        </div>
+        <div class="registration">
+            <div class="registration__container">
+                <div class="registration__navbar">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Dla producentów</a>
+                        <a href="#">Blog</a>
+                        <a href="#">FAQ</a>
+                    </nav>
+                    <div class="login-btn__container">
+                        <a href="#">Zaloguj się</a>
+                    </div>
+                </div>
+                <div class="registration__content">
+                    <h2>Rejestracja</h2>
+                    <p>Dołacz do platwormy HeatService</p>
+                    <form autocomplete="off" id="registration-form" novalidate action="">
+                        <div class="form__row">
+                            <div>
+                                <label for="first_name">Imię</label>
+                                <input type="text" id="first_name">
+                            </div>
+                            <div>
+                                <label for="lase_name">Nazwisko</label>
+                                <input type="text" id="last_name">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div>
+                                <label for="password">Hasło</label>
+                                <input type="password" id="password">
+                            </div>
+                            <div>
+                                <label for="password-check">Potwierdź hasło</label>
+                                <input type="password" id="password-check">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <input type="submit" value="Zarejestruj się">
+                            <button>Anuluj</button>
+                        </div>
+                        <div class="form__row form-validation-message-box"></div>
+                    </form>
+                    <p>Jeśli posiadasz konto <a href="#">Zaloguj się</a></p>
+                </div>
+                <div class="registration__footer">
+                    <div class="footer__container">
+                        <div class="footer__column">
+                            <img src="img/ue.png">
+                            <p>&copy; Heat Service 2021 | BOOST BPO Sp. z o.o.</p>
+                        </div>
+                        <div class="footer__column">
+                            <ul>
+                                <li><a href="#">Projekty UE</a></li>
+                                <li><a href="#">Regulamin</a></li>
+                                <li><a href="#">Polityka prywatności</a></li>
+                            </ul>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
